@@ -1,0 +1,141 @@
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>todo</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><link href="css/app.63ec8e94.css" rel="preload" as="style"><link href="js/app.79ba6e6c.js" rel="preload" as="script"><link href="js/chunk-vendors.7229cf15.js" rel="preload" as="script"><link href="css/app.63ec8e94.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but todo doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="js/chunk-vendors.7229cf15.js"></script><script src="js/app.79ba6e6c.js"></script></body><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><script src="https://unpkg.com/vue-infinite-loading@^2/dist/vue-infinite-loading.js"></script></html><style>.emoji-picker{
+        width: 100% !important;
+        border: 0 !important;
+    }
+
+    .emoji-picker .emoji{
+        border: 0 !important;
+    }
+
+    .emoji-picker .border {
+        border: 0 !important;
+    }
+
+    .btn-search{
+        margin: 0 -15px;
+        background: rgba(255,255,255,.5);
+    }
+
+    input:focus,button:focus{
+        outline: none;
+    }
+
+    .bg-dark-purple{
+        background-color: #563d7c;
+    }
+
+    .hover-color-white:hover{
+        color: #ffffff !important;
+    }
+
+    a{
+        color: #000;
+        text-decoration: none !important;
+    }
+
+    a:hover{
+        color: #563d7c;
+        text-decoration: none !important;
+    }
+
+    .btn-add-group {
+        border-radius: 50%;
+        line-height: 50px;
+        width: 50px;
+        height: 50px;
+        border: navajowhite;
+        color: #ffffff;
+        font-weight: 900;
+        background-color: #563d7c;
+        position: absolute;
+        right: 50px;
+        bottom: 50px;
+        z-index: 1;
+    }
+
+    .content-app--group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    ul {
+        list-style: none;
+    }
+    .group-item {
+        line-height: 50px;
+        text-align: left;
+        border-bottom: 1px solid gainsboro;
+    }
+    .avtMessage--group {
+        position: relative;
+        width: 50px;
+        height: 50px;
+    }
+    .avtMessage--group::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #ffffff;
+        border-radius: 50%;
+    }
+
+    .form-auth {
+        height: 100%;
+        margin-top: 15vh;
+        padding: 0 60px;
+    }
+
+    .form-auth .form-group {
+        text-align: left;
+    }
+
+    .form-auth .btn-custom {
+        color: #fff;
+        background-color: #563d7c;
+        border: none;
+        width: 100%;
+    }
+
+    .form-auth button:focus {
+        border: 0 !important;
+    }
+
+    @media screen and (max-width: 992px) {
+        .bg-app {
+            margin: 0 !important;
+            height: 100vh !important;
+        }
+
+        .form-auth {
+            height: 100%;
+            margin-top: 15vh;
+            padding: 0 10px;
+        }
+    }
+    @media screen and (max-width: 992px) {
+            .header-app{
+                padding: 5px 0;
+            }
+
+            .header-app h1{
+                font-size: 24px;
+            }
+
+            html,
+            body {
+                width: 100vw !important;
+                height: calc(100vh - 56px) !important;
+            }
+
+            .container{
+                height: calc(100vh - 56px) !important;
+            }
+
+            .bg-app{
+                border: none;
+                height: calc(100vh - 56px) !important;
+            }
+        }</style>
